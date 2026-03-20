@@ -596,6 +596,15 @@
             background: linear-gradient(to top, rgba(10,10,15,0.8) 0%, transparent 60%);
         }
 
+        /* SVG placeholder for projects without images */
+        .project-img-placeholder {
+            width: 100%; height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
         .project-body { padding: 28px; }
 
         .project-num {
@@ -964,7 +973,7 @@
                     <div class="stat-label">Certifications Earned</div>
                 </div>
                 <div class="stat-row">
-                    <div class="stat-num">5+</div>
+                    <div class="stat-num">9+</div>
                     <div class="stat-label">Projects Built</div>
                 </div>
             </div>
@@ -1067,28 +1076,79 @@
                     </div>
                 </div>
             </div>
- 
             <div class="project-card reveal">
                 <div class="project-img">
-                    <img src="sail.jpg" alt="SAIL ERP">
+                    <img src="Cat-Dog.png" alt="Simon Says">
                     <div class="project-img-overlay"></div>
                 </div>
                 <div class="project-body">
                     <div class="project-num">03</div>
-                    <h3 class="project-title">SAIL ERP System</h3>
-                    <p class="project-desc">A web-based ERP platform integrating inventory, sales, and financial modules with a centralized real-time analytics dashboard. Optimized MySQL database structures for performance.</p>
+                    <h3 class="project-title">Cat & Dog Classifier</h3>
+                    <p class="project-desc">Multi-model image classification system trained on cat and dog datasets. Implements SVM, Random Forest, Logistic Regression, CNN, and K-Means Clustering with a Flask backend and HTML/CSS frontend for live image upload and prediction.</p>
                     <div class="project-tags">
-                        <span class="project-tag">PHP</span>
-                        <span class="project-tag">JavaScript</span>
-                        <span class="project-tag">HTML/CSS</span>
-                        <span class="project-tag">MySQL</span>
-                        <span class="project-tag">Bootstrap</span>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Flask</span>
+                        <span class="project-tag">CNN</span>
+                        <span class="project-tag">SVM</span>
+                        <span class="project-tag">Random Forest</span>
+                        <span class="project-tag">OpenCV</span>
+                        <span class="project-tag">Scikit-learn</span>
+                        <span class="project-tag">Keras</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/ParamChawla/sail-erp" target="_blank"><i class="fab fa-github"></i> Source Code <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://github.com/ParamChawla/Cat-Dog-Classification" target="_blank"><i class="fab fa-github"></i> Source Code <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
+
+            <!-- ── NEW: Cat & Dog Classification ── -->
+            
+            <!-- ── NEW: Sentiment Prediction API ── -->
+             <div class="project-card reveal">
+                <div class="project-img">
+                    <img src="FastAPI Sentiment.png" alt="Simon Says">
+                    <div class="project-img-overlay"></div>
+                </div>
+                <div class="project-body">
+                    <div class="project-num">04</div>
+                    <h3 class="project-title">Sentiment Prediction API</h3>
+                    <p class="project-desc">A high-performance sentiment analysis REST API built with FastAPI that fetches and classifies Twitter/X tweets as Positive, Negative, or Neutral using TextBlob NLP. Integrates Tweepy for real-time tweet retrieval with configurable keyword search.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">FastAPI</span>
+                        <span class="project-tag">Tweepy</span>
+                        <span class="project-tag">TextBlob</span>
+                        <span class="project-tag">NLP</span>
+                        <span class="project-tag">Uvicorn</span>
+                        <span class="project-tag">Twitter API</span>
+                        <span class="project-tag">Scikit-learn</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/ParamChawla/Sentiment-Prediction-Using-FastAPI" target="_blank"><i class="fab fa-github"></i> Source Code <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-img">
+                    <img src="stock prediction.png" alt="Stock Predictor">
+                    <div class="project-img-overlay"></div>
+                </div>
+                <div class="project-body">
+                    <div class="project-num">05</div>
+                    <h3 class="project-title">Stock Price Predictor</h3>
+                    <p class="project-desc">A web-based ML application that predicts stock prices using historical data via Linear Regression and LSTM models, built with Python Flask.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Flask</span>
+                        <span class="project-tag">Linear Regression</span>
+                        <span class="project-tag">LSTM</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/ParamChawla/Stock-Price-Predictor" target="_blank"><i class="fab fa-github"></i> Source Code <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+ 
  
             <div class="project-card reveal">
                 <div class="project-img">
@@ -1096,7 +1156,7 @@
                     <div class="project-img-overlay"></div>
                 </div>
                 <div class="project-body">
-                    <div class="project-num">04</div>
+                    <div class="project-num">06</div>
                     <h3 class="project-title">AI Chat Agent</h3>
                     <p class="project-desc">A desktop AI application integrating Gemini API for language generation and Hugging Face Stable Diffusion for image synthesis, with an interactive Tkinter GUI.</p>
                     <div class="project-tags">
@@ -1118,7 +1178,7 @@
                     <div class="project-img-overlay"></div>
                 </div>
                 <div class="project-body">
-                    <div class="project-num">05</div>
+                    <div class="project-num">07</div>
                     <h3 class="project-title">J.A.R.V.I.S Voice Assistant</h3>
                     <p class="project-desc">A voice-controlled virtual assistant integrating OpenAI, NewsAPI, and gTTS for natural language web search and music playback, using speech recognition and NLP.</p>
                     <div class="project-tags">
@@ -1133,27 +1193,29 @@
                     </div>
                 </div>
             </div>
- 
             <div class="project-card reveal">
                 <div class="project-img">
-                    <img src="stock prediction.png" alt="Stock Predictor">
+                    <img src="sail.jpg" alt="SAIL ERP">
                     <div class="project-img-overlay"></div>
                 </div>
                 <div class="project-body">
-                    <div class="project-num">06</div>
-                    <h3 class="project-title">Stock Price Predictor</h3>
-                    <p class="project-desc">A web-based ML application that predicts stock prices using historical data via Linear Regression and LSTM models, built with Python Flask.</p>
+                    <div class="project-num">08</div>
+                    <h3 class="project-title">SAIL ERP System</h3>
+                    <p class="project-desc">A web-based ERP platform integrating inventory, sales, and financial modules with a centralized real-time analytics dashboard. Optimized MySQL database structures for performance.</p>
                     <div class="project-tags">
-                        <span class="project-tag">Python</span>
-                        <span class="project-tag">Flask</span>
-                        <span class="project-tag">Linear Regression</span>
-                        <span class="project-tag">LSTM</span>
+                        <span class="project-tag">PHP</span>
+                        <span class="project-tag">JavaScript</span>
+                        <span class="project-tag">HTML/CSS</span>
+                        <span class="project-tag">MySQL</span>
+                        <span class="project-tag">Bootstrap</span>
                     </div>
                     <div class="project-links">
-                        <a href="https://github.com/ParamChawla/Stock-Price-Predictor" target="_blank"><i class="fab fa-github"></i> Source Code <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://github.com/ParamChawla/sail-erp" target="_blank"><i class="fab fa-github"></i> Source Code <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
+ 
+            
  
             <div class="project-card reveal">
                 <div class="project-img">
@@ -1161,7 +1223,7 @@
                     <div class="project-img-overlay"></div>
                 </div>
                 <div class="project-body">
-                    <div class="project-num">07</div>
+                    <div class="project-num">09</div>
                     <h3 class="project-title">Simon Says Game</h3>
                     <p class="project-desc">An interactive browser-based implementation of the classic memory game with dynamic feedback and progressive difficulty levels.</p>
                     <div class="project-tags">
@@ -1176,7 +1238,8 @@
                     </div>
                 </div>
             </div>
- 
+
+            
         </div>
     </div>
 </section>
